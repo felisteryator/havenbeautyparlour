@@ -71,3 +71,8 @@ p {
 .card ul {
   color: darkkhaki;
 }
+@media (max-width: 480px) {
+  .container {
+    padding: 24px 18px;
+  }
+}
