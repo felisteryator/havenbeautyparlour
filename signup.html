@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="task/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo"><h2>BH</h2></div>
+      <h1>Create Account</h1>
+      <p>Join us today and enjoy the best of our services!</p>
+      <br /><br />
+      <form action="submit" method="post">
+        <div class="full-width">
+          <label for="fname">Full Name: </label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter full name"
+            required
+          />
+        </div>
+        <br />
+        <div class="full-width">
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            id="fname"
+            name="fname"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+        <br />
+        <div class="full-width">
+          <label for="No">Phone Number: </label>
+          <input
+            type="number"
+            id="No"
+            name="No"
+            placeholder="Enter phone number"
+            required
+          />
+        </div>
+        <br />
+        <div class="full-width">
+          <label for="pass">Password: </label>
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            placeholder="Enter password"
+            required
+          />
+        </div>
+        <br />
+        <div class="full-width">
+          <label for="pass"> Confirm Password: </label>
+          <input
+            type="password"
+            id="confpass"
+            name="confpass"
+            placeholder="Confirm password"
+            required
+          />
+        </div>
+        <br />
+        <div class="gender">
+          <label>Select your gender: </label><br /><br />
+          <input class="" type="radio" id="female" name="gender" />
+          <label for="female">Female</label>
+          <input type="radio" id="male" name="gender" />
+          <label for="male">Male</label>
+        </div>
+        <br />
+        <div class="terms">
+          <input type="checkbox" id="TC" name="TC" />
+          <label for="TC">I agree to the Terms and Conditions</label>
+        </div>
+        <br />
+        <button type="submit">Create</button>
+      </form>
+      <p class="login">Already have an account? <a href="login.html">Login</a></p>
+    </div>
+  </body>
+</html>
